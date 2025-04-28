@@ -1,12 +1,38 @@
-body{ background-image: url("GoldFish.jpeg");
+body {
+    background-image: url("GoldFish.jpeg");
 
-background-size: cover;}
+    background-size: cover;
+}
 
-h1{text-align: center;
-color: white}
-p{text-align: center;}
+h1 {
+    text-align: center;
+    color: white;
+    border: 2px double green
+}
 
-h5{text-align: center;
-font-weight: bold;}
+p {
+    text-align: center;
+}
 
-.table{text-align: center;}
+h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    border-bottom: 2px solid black;
+}
+
+.table {
+    text-align: center;
+}
+
+.p-2 {
+    background-color: white;
+    border: 2px double green;
+    flex-basis: 0%;
+}
+
+.table {
+    border: 4px double green
+}
