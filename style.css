@@ -64,5 +64,5 @@ img {
 iframe {
     float: inline-start;
     margin-left: 2%;
-    border: 4px double green;
 }
+ .p-2{max-width: 50%;}
