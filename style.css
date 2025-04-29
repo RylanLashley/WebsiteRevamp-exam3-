@@ -4,7 +4,8 @@ body {
     background-size: cover;
 }
 
-h1 {
+h1,
+#serv {
     text-align: center;
     color: white;
     border: 2px double green
@@ -12,6 +13,7 @@ h1 {
 
 p {
     text-align: center;
+    color: white;
 }
 
 h5 {
@@ -34,5 +36,33 @@ h3 {
 }
 
 .table {
-    border: 4px double green
+    border: 4px double green;
+    align-items: center;
+}
+
+img {
+    margin-top: 4%;
+    margin-right: 9%;
+    border: 4px double green;
+    max-width: 120%;
+    height: auto;
+    float: right;
+}
+
+#RespoolCap {
+    float: left;
+    padding-left: 16%;
+    color: white;
+}
+
+#vidCap {
+    margin-top: 25%;
+    margin-left: 7%;
+    color: white;
+}
+
+iframe {
+    float: inline-start;
+    margin-left: 2%;
+    border: 4px double green;
 }
